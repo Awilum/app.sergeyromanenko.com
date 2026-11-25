@@ -8,7 +8,7 @@
 const CACHE_NAME = 'nim-cache-v1';
 
 const PRECACHE_URLS = [
-  '/apps/nim/',
+  '/nim/',
   '/site.webmanifest',
 ];
 
@@ -44,7 +44,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  const isGameRoute = url.pathname.includes('/apps/nim');
+  const isGameRoute = url.pathname.includes('/nim');
   const isAstroBundle = url.pathname.startsWith('/_astro/');
   const isPublicAsset = url.pathname.endsWith('.svg') || url.pathname.endsWith('.png') || url.pathname.endsWith('.woff2');
 

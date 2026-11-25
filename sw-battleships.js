@@ -9,7 +9,7 @@
 const CACHE_NAME = 'battleships-cache-v1';
 
 const PRECACHE_URLS = [
-  '/apps/battleships/',
+  '/battleships/',
   '/site.webmanifest',
 ];
 
@@ -45,7 +45,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  const isGameRoute = url.pathname.includes('/apps/battleships');
+  const isGameRoute = url.pathname.includes('/battleships');
   const isAstroBundle = url.pathname.startsWith('/_astro/');
   const isPublicAsset = url.pathname.endsWith('.svg') || url.pathname.endsWith('.png') || url.pathname.endsWith('.woff2');
 
@@ -85,7 +85,7 @@ self.addEventListener('fetch', (event) => {
           .catch(() => {
             // If offline and requesting the game page, fallback to precached game HTML
             if (isGameRoute) {
-              return caches.match('/apps/battleships/');
+              return caches.match('/battleships/');
             }
           });
       })

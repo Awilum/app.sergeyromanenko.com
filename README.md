@@ -27,8 +27,13 @@ the repository.
 ## Crawl configuration
 
 `robots.txt` allows crawling, and `sitemap-index.xml` lists the launcher and the
-three legal pages. Runtime routes under `/apps/` carry `noindex, follow` in
-their HTML but remain crawlable so search engines can read that directive.
+three legal pages. Application runtimes live directly at the domain root (for
+example `/markdown-editor/`) and carry `noindex, follow` in their HTML, but
+remain crawlable so search engines can read that directive.
+
+`_redirects` issues an HTTP 301 from every legacy `/apps/*` address to the same
+path at the root, preserving bookmarks and indexed links without serving a
+second copy of any page.
 
 ## Files kept by the repository
 

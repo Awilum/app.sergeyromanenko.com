@@ -1,0 +1,5 @@
+# Legacy application addresses moved to the domain root in November 2026.
+# One dynamic rule covers all 52 runtimes; the destination has no /apps/ prefix,
+# so a redirected request cannot match the source again. Cloudflare Pages
+# applies redirects before serving a static file, so no duplicate page is served.
+/apps/* /:splat 301
