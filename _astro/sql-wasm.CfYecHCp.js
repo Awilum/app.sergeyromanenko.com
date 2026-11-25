@@ -1,0 +1,1 @@
+var e=`/_astro/sql-wasm.Bu87Kycj.wasm`;export{e as default};

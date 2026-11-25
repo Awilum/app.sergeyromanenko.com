@@ -1,0 +1,7 @@
+# Cloudflare Pages project for the prebuilt applications workspace.
+#
+# The static artifact lives at the root of this repository, so Pages serves it
+# without a build step. The source project writes here with `npm run build`.
+name = "app-sergeyromanenko-com"
+pages_build_output_dir = "."
+compatibility_date = "2026-11-25"

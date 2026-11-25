@@ -1,0 +1,11 @@
+# robots.txt — https://app.sergeyromanenko.com
+#
+# The workspace, legal pages and application routes are publicly crawlable.
+# Runtime pages under /apps/ communicate their own "noindex, follow" directive
+# in HTML, so they must not be blocked here: a crawler has to fetch the page to
+# read that directive.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://app.sergeyromanenko.com/sitemap-index.xml
