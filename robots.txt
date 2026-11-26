@@ -5,8 +5,94 @@
 # directive in HTML, so they must not be blocked here: a crawler has to fetch
 # the page to read that directive. Legacy /apps/* addresses are permanently
 # redirected to the clean routes by _redirects.
+#
+# Search crawling, model training, indexing and citation are separate
+# activities. Allowing a crawler does not guarantee indexing or citation.
+# Blocking a crawler does not remove content already collected or published.
 
 User-agent: *
 Allow: /
+
+# --- Search and AI answer engines ---
+
+# OpenAI: ChatGPT Search
+User-agent: OAI-SearchBot
+Allow: /
+
+# OpenAI: user-initiated retrieval
+User-agent: ChatGPT-User
+Allow: /
+
+# Perplexity: search indexing
+User-agent: PerplexityBot
+Allow: /
+
+# Perplexity: user-initiated retrieval
+User-agent: Perplexity-User
+Allow: /
+
+# Anthropic: Claude Search
+User-agent: Claude-SearchBot
+Allow: /
+
+# Anthropic: user-initiated retrieval
+User-agent: Claude-User
+Allow: /
+
+# Google: search indexing and Google Search AI features
+User-agent: Googlebot
+Allow: /
+
+# Meta AI search indexing
+User-agent: meta-webindexer
+Allow: /
+
+# Meta: user-initiated external retrieval
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+# --- Model-training and restricted-use controls ---
+
+# OpenAI: block the dedicated model-training crawler. OAI-SearchBot stays
+# allowed in its independent group above.
+User-agent: GPTBot
+Disallow: /
+
+# Anthropic: block the dedicated model-training crawler. Claude-SearchBot and
+# Claude-User stay allowed in their independent groups above.
+User-agent: ClaudeBot
+Disallow: /
+
+# Google: restrict use of crawled content for Gemini model training and
+# certain Gemini / Vertex AI grounding features. This does not block Google
+# Search indexing or Google Search AI Overviews.
+User-agent: Google-Extended
+Disallow: /
+
+# Apple: control the token for use of Applebot-collected data in
+# foundation-model training and related intelligence features.
+User-agent: Applebot-Extended
+Disallow: /
+
+# Meta: block the external-agent crawler associated with AI model development.
+User-agent: meta-externalagent
+Disallow: /
+
+# Common Crawl: exclude pages from future crawls by this crawler.
+# This does not remove content already collected.
+User-agent: CCBot
+Disallow: /
+
+# --- Intentionally not blocked ---
+#
+# Amazonbot: left allowed because its documented uses span multiple Amazon
+# services; blocking a crawler may reduce discoverability.
+#
+# YandexBot, Bingbot, Baiduspider and other search crawlers are allowed by the
+# general User-agent: * rule unless explicitly restricted above.
+#
+# Note: user-initiated agents may not all interpret robots.txt identically.
+# Explicit Allow directives communicate the intended policy but do not
+# guarantee that every service will fetch or cite a page.
 
 Sitemap: https://app.sergeyromanenko.com/sitemap-index.xml

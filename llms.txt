@@ -1,0 +1,73 @@
+# Applications
+
+> Practical browser-based tools and games. Search the workspace, then open any application in your browser.
+
+This file is an index of the public pages of the applications workspace. It is an
+entry list for language-model and AI crawlers, kept alongside the HTML pages. Every
+link is absolute; the canonical address of a tool is its root-level route, for example
+https://app.sergeyromanenko.com/markdown-editor/.
+
+## Workspace
+
+- [Applications](https://app.sergeyromanenko.com/): Practical browser-based tools and games. Search the workspace, then open any application in your browser.
+
+## Legal
+
+- [Privacy Policy](https://app.sergeyromanenko.com/privacy-policy/): Privacy Policy for app.sergeyromanenko.com: browser-local processing, files, storage, service workers, third-party requests and your rights.
+- [Terms of Use](https://app.sergeyromanenko.com/terms-of-use/): Terms of Use for app.sergeyromanenko.com: permitted use of the tools and games, user responsibilities, disclaimers, availability and intellectual property.
+- [Copyright & Licensing](https://app.sergeyromanenko.com/copyright-and-licensing/): Copyright, ownership and licensing information for the applications, games, interfaces, assets and documentation published on app.sergeyromanenko.com.
+
+## Applications
+
+- [Markdown Editor](https://app.sergeyromanenko.com/markdown-editor/): Write Markdown, preview beautifully rendered HTML in real time, and export high-quality PNG images with customizable scale, padding, backgrounds, and styling.
+- [Text Analyzer](https://app.sergeyromanenko.com/text-analyzer/): Measure words, characters, sentences, paragraphs, reading time, page count, word frequency and repeated phrases — computed entirely in your browser.
+- [Case Converter](https://app.sergeyromanenko.com/case-converter/): Convert text to uppercase, lowercase, title case, sentence case, camelCase, PascalCase, snake_case, kebab-case and eleven more formats at once.
+- [Text Cleaner](https://app.sergeyromanenko.com/text-cleaner/): Clean text pasted from a web page, PDF or spreadsheet — collapse whitespace, fix line endings, find invisible characters and strip HTML.
+- [Text Formatter](https://app.sergeyromanenko.com/text-formatter/): Add line numbers, wrap text at a column, add prefixes and suffixes, indent, and turn lines into a bulleted or numbered list.
+- [List Processor](https://app.sergeyromanenko.com/list-processor/): Sort, deduplicate, filter and compare a list of items — alphabetically, naturally, by length, numerically, and against a second list.
+- [Text Splitter & Joiner](https://app.sergeyromanenko.com/text-splitter/): Split text into lines, paragraphs, sentences, batches of characters or words, or a fixed number of parts — then join it back together.
+- [Find and Replace](https://app.sergeyromanenko.com/find-and-replace/): Find and replace text with optional regular expressions, case and whole-word matching, match counting and safe capture-group substitution.
+- [Text Diff](https://app.sergeyromanenko.com/text-diff/): Compare two texts line by line or word by word, with an accurate diff, ignore options, and differences marked by sign, tint and word.
+- [Text Truncator](https://app.sergeyromanenko.com/text-truncator/): Shorten text to a limit in characters, words, sentences, lines or paragraphs — cutting at a word boundary and counting the suffix inside the limit.
+- [Placeholder Text Generator](https://app.sergeyromanenko.com/lorem-ipsum/): Generate placeholder text by paragraph, sentence or word count, with or without the traditional opening, and repeatably when you need the same text twice.
+- [Emoji Picker](https://app.sergeyromanenko.com/emoji-picker/): Search and copy emoji from a set bundled with the page — no API call, no tracking, and the picker keeps working offline once the page has loaded.
+- [Code Editor](https://app.sergeyromanenko.com/code-editor/): Write a code snippet in the browser, highlight it in your language, share it as a link that carries the code, and save it as a PNG. Nothing is uploaded.
+- [SQL Editor](https://app.sergeyromanenko.com/sql-editor/): Write and run SQLite in the browser: build a database from a schema script or open a .sqlite file, read results as a table, and save the database back out.
+- [Mermaid Diagram Editor](https://app.sergeyromanenko.com/mermaid-diagram-editor/): Write Mermaid source, watch it render as a live diagram, and download it as a PNG file, all in your browser.
+- [Lua Editor](https://app.sergeyromanenko.com/lua-editor/): Write and run Lua 5.4 in the browser with WebAssembly: a full editor with syntax highlighting, REPL console, examples and execution limits. Nothing is uploaded.
+- [Pseudocode Editor](https://app.sergeyromanenko.com/pseudocode-editor/): Write, run and inspect Cambridge 9618 pseudocode in your browser. Insert ready-made blocks, load 36 examples, and watch output and variables update.
+- [Brainfuck Editor](https://app.sergeyromanenko.com/brainfuck-editor/): Write and execute Brainfuck in the browser with an interactive editor and execution controls. An esoteric, minimalist, Turing-complete language with 8 commands.
+- [HTTP Status Codes](https://app.sergeyromanenko.com/http-status-codes/): A searchable reference for every HTTP status code, with plain-English explanations, categories, and related-code links. Runs entirely in your browser.
+- [JSON Formatter](https://app.sergeyromanenko.com/json-formatter/): Validate, format and minify JSON in your browser, with syntax errors reported as a line and a column you can find.
+- [JSON YAML Converter](https://app.sergeyromanenko.com/json-yaml-converter/): Convert JSON to YAML and YAML to JSON in your browser, with configurable indentation and errors that say where to look.
+- [YAML Formatter](https://app.sergeyromanenko.com/yaml-formatter/): Validate and format YAML in your browser, with parser errors reported as a line and a column you can find.
+- [XML to JSON Converter](https://app.sergeyromanenko.com/xml-to-json/): Convert XML documents to JSON in your browser, with a documented mapping for attributes, repeated elements and mixed content.
+- [Front Matter Editor](https://app.sergeyromanenko.com/front-matter-editor/): Extract, edit and convert the Front Matter metadata block at the top of a Markdown document, then rebuild the document around it.
+- [Binary Converter](https://app.sergeyromanenko.com/binary-converter/): Convert between binary, decimal, octal and hexadecimal; encode and decode text and Base64, and calculate with binary arithmetic and bitwise shifts.
+- [Encryption](https://app.sergeyromanenko.com/encryption/): Encrypt and decrypt text in your browser with AES-256-GCM or the OpenSSL-compatible AES-256-CBC format.
+- [Hash Text](https://app.sergeyromanenko.com/hash-text/): Hash text with MD5, SHA-1, SHA-224, SHA-256, SHA-384, SHA-512, SHA3-512 or RIPEMD-160, entirely in your browser.
+- [Token Generator](https://app.sergeyromanenko.com/token-generator/): Generate cryptographically secure random tokens in your browser, with the length and the character sets you choose.
+- [ULID Generator](https://app.sergeyromanenko.com/ulid-generator/): Generate universally unique lexicographically sortable identifiers in your browser, with the count you need.
+- [Cipher Toolkit](https://app.sergeyromanenko.com/cipher-toolkit/): Fourteen classical ciphers in one place. Choose a cipher, set its key, and encrypt or decrypt text with the algorithm running entirely in your browser.
+- [Time Difference Calculator](https://app.sergeyromanenko.com/time-difference-calculator/): Compare local times, daylight, and time differences across the cities that matter wherever you travel.
+- [The World Clock](https://app.sergeyromanenko.com/world-clock/): A live clock for every city that matters to you — the current time, date, and daylight for your city and anywhere your people are, all at once.
+- [Currency Converter](https://app.sergeyromanenko.com/currency-converter/): Convert between currencies using reference exchange rates from a reputable public data source, with the rate and its date shown.
+- [Unit Converter](https://app.sergeyromanenko.com/unit-converter/): Convert length, weight, temperature, volume, area, speed, fuel economy and data transfer rates between metric, US and Imperial units.
+- [Percentage Calculator](https://app.sergeyromanenko.com/percentage-calculator/): Calculate a percentage of a number, what percentage one number is of another, percentage change, adding or subtracting a percentage, and percentage difference.
+- [GPS Coordinate Converter](https://app.sergeyromanenko.com/gps-coordinate-converter/): Convert GPS coordinates between decimal degrees, degrees and decimal minutes, and degrees, minutes and seconds, with validation of ranges.
+- [Speed, Distance, and Time Calculator](https://app.sergeyromanenko.com/speed-distance-time-calculator/): Calculate speed, distance or time from the other two, with consistent unit conversion for metric and imperial units.
+- [QR Code Generator](https://app.sergeyromanenko.com/qr-code-generator/): Create custom QR codes for URLs, text, Wi-Fi, contacts, email, phone numbers, locations — with customizable colors, styles and logos.
+- [Favicon Generator](https://app.sergeyromanenko.com/favicon-generator/): Generate favicons and app icons in your browser from text or an image. Export PNGs, a multi-resolution ICO, ZIP, manifest, and HTML tags. Nothing is uploaded.
+- [YouTube on Repeat](https://app.sergeyromanenko.com/youtube-on-repeat/): Paste a YouTube URL and loop the whole video or a precise A–B section, with playback-speed control and keyboard shortcuts. Runs entirely in your browser.
+- [2048](https://app.sergeyromanenko.com/2048/): Slide numbered tiles on a 4x4 grid, merging equal tiles to reach 2048. A free, offline browser game with keyboard, mouse, and touch controls.
+- [Battleships](https://app.sergeyromanenko.com/battleships/): The classic fleet-hunting game, no-touch edition. Place five ships with a cell of water between each, trade shots with a probability-hunting computer opponent.
+- [Catch the Cat](https://app.sergeyromanenko.com/catch-the-cat/): The classic trapping puzzle. Place barriers on a hexagonal grid while the cat takes one step per turn toward the edge. Trap it before it escapes.
+- [Dots and Boxes](https://app.sergeyromanenko.com/dots-and-boxes/): The classic paper-and-pencil strategy game. Draw lines, complete boxes, earn extra turns, and outmaneuver the computer or a friend on boards up to 10×10.
+- [Lights Out](https://app.sergeyromanenko.com/lights-out/): Turn every light off. Tap a light to toggle it and its four neighbors. Random solvable puzzles, multiple board sizes, hints, undo, timer and personal bests.
+- [Memory Game](https://app.sergeyromanenko.com/memory-game/): Test your memory with this classic card matching game. Multiple difficulties, themes, and game modes. Play offline on flights, trains, and during travel.
+- [Nim](https://app.sergeyromanenko.com/nim/): The classic mathematical strategy game. Take turns removing objects from heaps, master the XOR nim-sum, and challenge the Optimal computer opponent.
+- [Rock Paper Scissors](https://app.sergeyromanenko.com/rock-paper-scissors/): Play Rock Paper Scissors against the computer. A free, mobile-friendly browser game for quick breaks on trains, airplanes, and during travel.
+- [Simon](https://app.sergeyromanenko.com/simon/): Watch the colored pads light up in a growing sequence, then repeat it exactly. Each round adds one more step; one wrong tap ends the game.
+- [State Conquest](https://app.sergeyromanenko.com/state-conquest/): A turn-based territory-conquest strategy game. Command garrisons, capture strongholds, and eliminate rival commanders across tactical theaters.
+- [Tic-Tac-Toe](https://app.sergeyromanenko.com/tic-tac-toe/): Play Tic-Tac-Toe against an optimal computer opponent or challenge a friend on the same device. A free, mobile-friendly browser game for quick breaks.
+- [Tower of Hanoi](https://app.sergeyromanenko.com/tower-of-hanoi/): Solve the classic Tower of Hanoi puzzle. Move disks between three pegs following the rules, with difficulty levels, move counter, hints and a solution mode.

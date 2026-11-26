@@ -1,6 +1,9 @@
 {
   "name": "Sergey Romanenko — Applications",
   "short_name": "Applications",
+  "description": "Practical browser-based tools and games, available offline once loaded.",
+  "start_url": "/",
+  "lang": "en",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
